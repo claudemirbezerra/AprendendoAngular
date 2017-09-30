@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aprendendoangular.ui.api:
+    image: aprendendoangular.ui.api
+    build:
+      context: ./AprendendoAngular.UI.Api
+      dockerfile: Dockerfile

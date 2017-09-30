@@ -3,9 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B1F8F4FA-95DD-48C9-8E0D-F3D3D7934F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendendoAngular.Ui.Site", "AprendendoAngular.Ui.Site\AprendendoAngular.Ui.Site.csproj", "{15E16AC4-626D-4124-91C1-D8EC98401C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendendoAngular.UI.Api", "AprendendoAngular.UI.Api\AprendendoAngular.UI.Api.csproj", "{0F554B0A-FC69-4ADD-994E-60CF37188890}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6DCB5D07-AD51-4213-847F-3988DA26796B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15E16AC4-626D-4124-91C1-D8EC98401C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E16AC4-626D-4124-91C1-D8EC98401C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E16AC4-626D-4124-91C1-D8EC98401C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E16AC4-626D-4124-91C1-D8EC98401C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F554B0A-FC69-4ADD-994E-60CF37188890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F554B0A-FC69-4ADD-994E-60CF37188890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F554B0A-FC69-4ADD-994E-60CF37188890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F554B0A-FC69-4ADD-994E-60CF37188890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15E16AC4-626D-4124-91C1-D8EC98401C99} = {B1F8F4FA-95DD-48C9-8E0D-F3D3D7934F1F}
+		{0F554B0A-FC69-4ADD-994E-60CF37188890} = {B1F8F4FA-95DD-48C9-8E0D-F3D3D7934F1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB8A9E2A-887D-453A-A3D9-8E9E1788B152}
