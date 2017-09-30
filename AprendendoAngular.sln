@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendendoAngular.UI.Api", 
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6DCB5D07-AD51-4213-847F-3988DA26796B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprendendoAngular.UI.AngularJs", "AprendendoAngular.UI.AngularJs\AprendendoAngular.UI.AngularJs.csproj", "{2150034E-A133-4736-B2B9-FAB289E4DBA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCB5D07-AD51-4213-847F-3988DA26796B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2150034E-A133-4736-B2B9-FAB289E4DBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2150034E-A133-4736-B2B9-FAB289E4DBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2150034E-A133-4736-B2B9-FAB289E4DBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2150034E-A133-4736-B2B9-FAB289E4DBA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{15E16AC4-626D-4124-91C1-D8EC98401C99} = {B1F8F4FA-95DD-48C9-8E0D-F3D3D7934F1F}
 		{0F554B0A-FC69-4ADD-994E-60CF37188890} = {B1F8F4FA-95DD-48C9-8E0D-F3D3D7934F1F}
+		{2150034E-A133-4736-B2B9-FAB289E4DBA1} = {B1F8F4FA-95DD-48C9-8E0D-F3D3D7934F1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB8A9E2A-887D-453A-A3D9-8E9E1788B152}

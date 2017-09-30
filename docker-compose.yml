@@ -6,3 +6,9 @@ services:
     build:
       context: ./AprendendoAngular.UI.Api
       dockerfile: Dockerfile
+
+  aprendendoangular.ui.angularjs:
+    image: aprendendoangular.ui.angularjs
+    build:
+      context: ./AprendendoAngular.UI.AngularJs
+      dockerfile: Dockerfile
